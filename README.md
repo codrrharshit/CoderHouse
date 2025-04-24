@@ -39,19 +39,29 @@ This app allows users to join voice calls in real-time, create or join rooms, an
 - OTP system
 
 ---
+### ARCHITECTURE
+### OTP
+![OTP](./Otp-Architecture.png)
+
+### WebRTC
+![WebRTC](./WebRTC-Architecture.png)
+
+---
 
 ## 📷 Screenshots
 
 > Place your screenshots in the `screenshots/` folder and reference them below.
 
 ### 🔐 OTP Login
-![OTP Login](./screenshots/otp-login.png)
+![OTP Login](./Otp.png)
 
 ### 📞 Voice Call Room
-![Voice Call Room](./screenshots/voice-room.png)
+![Voice Call Room](./GroupCalling.png)
 
 ### 👤 Profile Setup
-![Profile](./screenshots/profile-setup.png)
+![Profile](./Profile.png)
+
+
 
 ---
 
