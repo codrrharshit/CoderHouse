@@ -1,0 +1,95 @@
+.modalMask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    background: #1d1d1d;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.header{
+    padding: 20px;
+    position: relative;
+}
+
+.header h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.roomType{
+    margin-top: 20px;
+}
+
+.roomType h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.roomTypewrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.typebox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active{
+    background: #262626;;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+}
+.footer h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.StartRoomButton{
+    background: #20bd5f;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.StartRoomButton span{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+.StartRoomButton:hover{
+    background: #109a47;
+}
+
+.close{
+    position: absolute;
+    right:0;
+    top:0;
+    cursor: pointer;
+    padding: 5px;
+}

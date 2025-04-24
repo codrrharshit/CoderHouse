@@ -1,0 +1,135 @@
+.card {
+    background: #1d1d1d;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    color: white;
+}
+
+.topic {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.speakers {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    position: relative;
+    width: 80px;
+    height: 50px;
+}
+
+.speakerAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #20bd5f;
+    object-fit: cover;
+    background: #1d1d1d;
+    position: absolute;
+}
+
+.speakerAvatar:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+.speakerAvatar:nth-child(2) {
+    top: 0;
+    left: 30px;
+}
+.speakerAvatar:nth-child(3) {
+    top: 0;
+    left: 60px;
+}
+/* you can add more nth-child if more speakers */
+
+.names {
+    flex: 1;
+}
+
+.namewrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.names span {
+    font-size: 16px;
+}
+
+.people {
+    text-align: end;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+
+
+/* the previous one is  */
+/* card{
+    background: #1d1d1d;
+    padding:20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.speakers{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    
+}
+
+
+
+
+.speaker names{
+    margin-bottom: 10px;
+}
+.speakerAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    border: 3px solid #20bd5f;
+    object-fit: cover;
+    position: absolute;
+    background: #1d1d1d;
+    top: 0;
+    left: 0;
+}
+.speakerAvatar:last-child{
+    top: 20px;
+    left: 30px;
+}
+
+.names{
+    margin-left:100px;
+}
+.names span{
+    padding-bottom: 5px;
+    display:inline-block;
+}
+
+.people{
+    text-align: end;
+}
+
+
+.speaker avatar{
+    position: fixed;
+    right: 0;
+
+} */

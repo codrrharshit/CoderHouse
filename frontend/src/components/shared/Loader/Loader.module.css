@@ -1,0 +1,16 @@
+.cardwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7em;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+}
